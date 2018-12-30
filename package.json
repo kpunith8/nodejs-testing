@@ -4,7 +4,7 @@
   "description": "Pluralsight course for nodeJS testing",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -w"
+    "test": "nyc mocha"
   },
   "author": "Punith K",
   "license": "MIT",
@@ -12,6 +12,7 @@
     "chai": "^4.2.0",
     "mocha": "^5.2.0",
     "moment": "^2.23.0",
+    "nyc": "^13.1.0",
     "sinon": "^7.1.1",
     "underscore": "^1.9.1"
   }
