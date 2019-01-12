@@ -4,16 +4,22 @@
   "description": "Pluralsight course for nodeJS testing",
   "main": "index.js",
   "scripts": {
-    "test": "nyc mocha"
+    "test": "nyc mocha",
+    "jest-test": "jest"
   },
   "author": "Punith K",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.18.0",
     "chai": "^4.2.0",
+    "jest": "^23.6.0",
     "mocha": "^5.2.0",
     "moment": "^2.23.0",
     "nyc": "^13.1.0",
     "sinon": "^7.1.1",
     "underscore": "^1.9.1"
+  },
+  "jest": {
+    "automock": false
   }
 }

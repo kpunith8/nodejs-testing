@@ -1,4 +1,5 @@
 const expect = require('chai').expect;
+
 const MembershipApplication = require('../src/membership-application');
 const moment = require('moment');
 
